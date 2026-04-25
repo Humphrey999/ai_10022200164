@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-04-25T22:04:45.076619",
+  "query": "How many votes did NPP get in Ho",
+  "stages": {
+    "retrieval": {
+      "expanded_query": "How many votes did NPP get in Ho NPP New Patriotic Party Akufo Addo votes votes candidate party NPP NDC election year region",
+      "retrieved_chunks": [
+        {
+          "id": "election_data_179",
+          "source": "election_data",
+          "score": 0.6478,
+          "preview": "votes(%): 0.39% | year: 2008, old_region: Upper East Region, new_region: Upper East Region, code: NPP, candidate: Nana A...",
+          "low_confidence": false
+        },
+        {
+          "id": "election_data_116",
+          "source": "election_data",
+          "score": 0.6085,
+          "preview": "78, votes(%): 0.69% | year: 2016, old_region: Volta Region, new_region: Volta Region, code: Others, candidate: Nana Kona...",
+          "low_confidence": false
+        },
+        {
+          "id": "election_data_105",
+          "source": "election_data",
+          "score": 0.6076,
+          "preview": "votes: 1215, votes(%): 0.57% | year: 2016, old_region: Volta Region, new_region: Oti Region, code: Others, candidate: Na...",
+          "low_confidence": false
+        },
+        {
+          "id": "election_data_173",
+          "source": "election_data",
+          "score": 0.5998,
+          "preview": ": Others, candidate: Kwesi Amoafo-Yeboah, party: IND, votes: 1334, votes(%): 0.20% | year: 2008, old_region: Eastern Reg...",
+          "low_confidence": false
+        },
+        {
+          "id": "election_data_208",
+          "source": "election_data",
+          "score": 0.5989,
+          "preview": ": NPP, candidate: J. A. Kuffour, party: NPP, votes: 856789, votes(%): 58.62% | year: 2000, old_region: Eastern Region, n...",
+          "low_confidence": false
+        }
+      ]
+    },
+    "prompt": {
+      "prompt_length": 3104,
+      "full_prompt": "You are an AI assistant for Academic City University.\nYou answer questions about Ghana's 2025 Budget and Ghana Election Results.\n\nIMPORTANT RULES:\n- Only use information from the CONTEXT below to answer.\n- If the context does not contain the answer, say: \"I don't have enough information in my knowledge base to answer that.\"\n- Do not make up facts, numbers, or names.\n- Be concise and factual.\n\nCONTEXT:\n[Source: election_data]\nvotes(%): 0.39% | year: 2008, old_region: Upper East Region, new_region: Upper East Region, code: NPP, candidate: Nana Addo, party: NPP, votes: 118454, votes(%): 35.25% | year: 2008, old_region: Upper East Region, new_region: Upper East Region, code: NDC, candidate: J. A Mills, party: NDC, votes: 188405, votes(%): 56.06% | year: 2008, old_region: Upper East Region, new_region: Upper East Region, code: Others, candidate: Papa K. Nduom, party: CPP, votes: 2800, votes(%): 0.83% | year: 2008, old_r\n\n---\n\n[Source: election_data]\n78, votes(%): 0.69% | year: 2016, old_region: Volta Region, new_region: Volta Region, code: Others, candidate: Nana Konadu Agyeman Rawlings, party: NDP, votes: 546, votes(%): 0.10% | year: 2016, old_region: Western Region, new_region: Western Region, code: NPP, candidate: Nana Akufo Addo, party: NPP, votes: 384211, votes(%): 55.83% | year: 2016, old_region: Western Region, new_region: Western Region, code: NDC, candidate: John Dramani Mahama, party: NDC, votes: 285938, votes(%): 41.55% | year: 2\n\n---\n\n[Source: election_data]\nvotes: 1215, votes(%): 0.57% | year: 2016, old_region: Volta Region, new_region: Oti Region, code: Others, candidate: Nana Konadu Agyeman Rawlings, party: NDP, votes: 437, votes(%): 0.20% | year: 2016, old_region: Northern Region, new_region: Savannah Region, code: NPP, candidate: Nana Akufo Addo, party: NPP, votes: 55485, votes(%): 33.36% | year: 2016, old_region: Northern Region, new_region: Savannah Region, code: NDC, candidate: John Dramani Mahama, party: NDC, votes: 106256, votes(%): 63.89%\n\n---\n\n[Source: election_data]\n: Others, candidate: Kwesi Amoafo-Yeboah, party: IND, votes: 1334, votes(%): 0.20% | year: 2008, old_region: Eastern Region, new_region: Eastern Region, code: NPP, candidate: Nana Addo, party: NPP, votes: 491520, votes(%): 57.14% | year: 2008, old_region: Eastern Region, new_region: Eastern Region, code: NDC, candidate: J. A Mills, party: NDC, votes: 353522, votes(%): 41.10% | year: 2008, old_region: Eastern Region, new_region: Eastern Region, code: Others, candidate: Papa K. Nduom, party: CPP,\n\n---\n\n[Source: election_data]\n: NPP, candidate: J. A. Kuffour, party: NPP, votes: 856789, votes(%): 58.62% | year: 2000, old_region: Eastern Region, new_region: Eastern Region, code: NDC, candidate: J. A. Mills, party: NDC, votes: 577317, votes(%): 39.50% | year: 2000, old_region: Eastern Region, new_region: Eastern Region, code: Others, candidate: George Hagan, party: CPP, votes: 6799, votes(%): 0.47% | year: 2000, old_region: Eastern Region, new_region: Eastern Region, code: Others, candidate: Edward Mahama, party: PNC, vo\n\nQUESTION: How many votes did NPP get in Ho\n\nANSWER:"
+    },
+    "generation": {
+      "response": "I don't have enough information in my knowledge base to answer that."
+    }
+  }
+}

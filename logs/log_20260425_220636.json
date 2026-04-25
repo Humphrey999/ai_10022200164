@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-04-25T22:06:35.759689",
+  "query": "How many votes did NDC get in Accra?",
+  "stages": {
+    "retrieval": {
+      "expanded_query": "How many votes did NDC get in Accra? NDC National Democratic Congress John Mahama votes votes candidate party NPP NDC election year region",
+      "retrieved_chunks": [
+        {
+          "id": "election_data_94",
+          "source": "election_data",
+          "score": 0.6784,
+          "preview": "votes(%): 0.04% | year: 2016, old_region: Greater Accra Region, new_region: Greater Accra Region, code: NPP, candidate: ...",
+          "low_confidence": false
+        },
+        {
+          "id": "election_data_210",
+          "source": "election_data",
+          "score": 0.666,
+          "preview": ": NPP, votes: 1206243, votes(%): 56.16% | year: 2000, old_region: Greater Accra Region, new_region: Greater Accra Region...",
+          "low_confidence": false
+        },
+        {
+          "id": "election_data_139",
+          "source": "election_data",
+          "score": 0.6638,
+          "preview": "es: 3753, votes(%): 0.33% | year: 2012, old_region: Greater Accra Region, new_region: Greater Accra Region, code: NPP, c...",
+          "low_confidence": false
+        },
+        {
+          "id": "election_data_226",
+          "source": "election_data",
+          "score": 0.6548,
+          "preview": "reater Accra Region, code: NPP, candidate: J. A. Kuffour, party: NPP, votes: 528484, votes(%): 43.32% | year: 1996, old_...",
+          "low_confidence": false
+        },
+        {
+          "id": "election_data_194",
+          "source": "election_data",
+          "score": 0.6491,
+          "preview": ": 0.72% | year: 2004, old_region: Greater Accra Region, new_region: Greater Accra Region, code: Others, candidate: Edwar...",
+          "low_confidence": false
+        }
+      ]
+    },
+    "prompt": {
+      "prompt_length": 3110,
+      "full_prompt": "You are an AI assistant for Academic City University.\nYou answer questions about Ghana's 2025 Budget and Ghana Election Results.\n\nIMPORTANT RULES:\n- Only use information from the CONTEXT below to answer.\n- If the context does not contain the answer, say: \"I don't have enough information in my knowledge base to answer that.\"\n- Do not make up facts, numbers, or names.\n- Be concise and factual.\n\nCONTEXT:\n[Source: election_data]\nvotes(%): 0.04% | year: 2016, old_region: Greater Accra Region, new_region: Greater Accra Region, code: NPP, candidate: Nana Akufo Addo, party: NPP, votes: 1062157, votes(%): 52.42% | year: 2016, old_region: Greater Accra Region, new_region: Greater Accra Region, code: NDC, candidate: John Dramani Mahama, party: NDC, votes: 946048, votes(%): 46.69% | year: 2016, old_region: Greater Accra Region, new_region: Greater Accra Region, code: Others, candidate: Ivor Kobina Greenstreet, party: CPP, votes\n\n---\n\n[Source: election_data]\n: NPP, votes: 1206243, votes(%): 56.16% | year: 2000, old_region: Greater Accra Region, new_region: Greater Accra Region, code: NDC, candidate: J. A. Mills, party: NDC, votes: 888971, votes(%): 41.39% | year: 2000, old_region: Greater Accra Region, new_region: Greater Accra Region, code: Others, candidate: George Hagan, party: CPP, votes: 10599, votes(%): 0.49% | year: 2000, old_region: Greater Accra Region, new_region: Greater Accra Region, code: Others, candidate: Edward Mahama, party: PNC, vo\n\n---\n\n[Source: election_data]\nes: 3753, votes(%): 0.33% | year: 2012, old_region: Greater Accra Region, new_region: Greater Accra Region, code: NPP, candidate: Nana Akufo Addo, party: NPP, votes: 1009787, votes(%): 46.92% | year: 2012, old_region: Greater Accra Region, new_region: Greater Accra Region, code: NDC, candidate: John Dramani Mahama, party: NDC, votes: 1125751, votes(%): 52.31% | year: 2012, old_region: Greater Accra Region, new_region: Greater Accra Region, code: Others, candidate: Ivor Kobina Greenstreet, party:\n\n---\n\n[Source: election_data]\nreater Accra Region, code: NPP, candidate: J. A. Kuffour, party: NPP, votes: 528484, votes(%): 43.32% | year: 1996, old_region: Greater Accra Region, new_region: Greater Accra Region, code: NDC, candidate: J. J. Rawlings, party: NDC, votes: 658626, votes(%): 53.99% | year: 1996, old_region: Greater Accra Region, new_region: Greater Accra Region, code: Others, candidate: Edward Mahama, party: PNC, votes: 32723, votes(%): 2.68% | year: 1996, old_region: Northern Region, new_region: Northern Region\n\n---\n\n[Source: election_data]\n: 0.72% | year: 2004, old_region: Greater Accra Region, new_region: Greater Accra Region, code: Others, candidate: Edward Mahama, party: PNC, votes: 16065, votes(%): 0.92% | year: 2004, old_region: Northern Region, new_region: Northern Region, code: NPP, candidate: J. A. Kuffour, party: NPP, votes: 283091, votes(%): 35.90% | year: 2004, old_region: Northern Region, new_region: Northern Region, code: NDC, candidate: J. A. Mills, party: NDC, votes: 443404, votes(%): 56.23% | year: 2004, old_region\n\nQUESTION: How many votes did NDC get in Accra?\n\nANSWER:"
+    },
+    "generation": {
+      "response": "I don't have enough information in my knowledge base to answer that."
+    }
+  }
+}

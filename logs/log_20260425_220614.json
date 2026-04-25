@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-04-25T22:06:14.387658",
+  "query": "What is Ghana's 2025 budget revenue",
+  "stages": {
+    "retrieval": {
+      "expanded_query": "What is Ghana's 2025 budget revenue budget expenditure revenue fiscal policy Ghana 2025",
+      "retrieved_chunks": [
+        {
+          "id": "budget_2025_90",
+          "source": "budget_2025",
+          "score": 0.8281,
+          "preview": "the end of 2025, benefiting from ongoing macroeconomic reforms aimed at fiscal consolidation, enhanced revenue mobilizat...",
+          "low_confidence": false
+        },
+        {
+          "id": "budget_2025_319",
+          "source": "budget_2025",
+          "score": 0.8075,
+          "preview": "serves as the main fiscal anchor. [Page 63] Resetting the Economy for the Ghana We Want 2025 Budget 51 2025 Macroeconomi...",
+          "low_confidence": false
+        },
+        {
+          "id": "budget_2025_165",
+          "source": "budget_2025",
+          "score": 0.8028,
+          "preview": "setting the Economy for the Ghana We Want 2025 Budget 24 117. Mr. Speaker, the fiscal performance for 2024 shows a rever...",
+          "low_confidence": false
+        },
+        {
+          "id": "budget_2025_0",
+          "source": "budget_2025",
+          "score": 0.7976,
+          "preview": "[Page 1] THEME: Resetting The Economy For The Ghana We Want [Page 2] [Page 3] The Budget Statement and Economic Policy o...",
+          "low_confidence": false
+        },
+        {
+          "id": "budget_2025_1660",
+          "source": "budget_2025",
+          "score": 0.7961,
+          "preview": "ing the Economy for the Ghana We Want 2025 Budget 229 Appendix 8E: 2028 Internally Generated Funds Retention (Expenditur...",
+          "low_confidence": false
+        }
+      ]
+    },
+    "prompt": {
+      "prompt_length": 3096,
+      "full_prompt": "You are an AI assistant for Academic City University.\nYou answer questions about Ghana's 2025 Budget and Ghana Election Results.\n\nIMPORTANT RULES:\n- Only use information from the CONTEXT below to answer.\n- If the context does not contain the answer, say: \"I don't have enough information in my knowledge base to answer that.\"\n- Do not make up facts, numbers, or names.\n- Be concise and factual.\n\nCONTEXT:\n[Source: budget_2025]\nthe end of 2025, benefiting from ongoing macroeconomic reforms aimed at fiscal consolidation, enhanced revenue mobilization, and monetary stability. [Page 22] Resetting the Economy for the Ghana We Want 2025 Budget 10 SECTION 3: STATE OF GHANA S ECONOMY AS AT END 2024 62. Mr. Speaker , to put the assessment of the Ghanaian economy in proper perspective , it will be useful to first restate the macro -fiscal targets for 2024: i. Overall real GDP growth rate of 3.1 percent; ii. Overall Non -Oil re\n\n---\n\n[Source: budget_2025]\nserves as the main fiscal anchor. [Page 63] Resetting the Economy for the Ghana We Want 2025 Budget 51 2025 Macroeconomic Targets 250. Mr. Speaker, in pursuit of the overarching macroeconomic objectives, the following macroeconomic targets are set for the 2025 fiscal year: i. Overall Real GDP growth of at least 4 .0 percent; ii. Non-Oil Real GDP growth of at least 4.8 percent; iii. End-Period inflation rate of 1 1.9 percent; iv. Primary Balance on Commitment basis at a surplus of 1.5 percent of\n\n---\n\n[Source: budget_2025]\nsetting the Economy for the Ghana We Want 2025 Budget 24 117. Mr. Speaker, the fiscal performance for 2024 shows a reversal of the effort made in 2023 as primary balance on commitment basis worsened from a deficit of 0. 2% in 2023 to a deficit of 3.9% of GDP in 2024 . The same trend was observed for the overall fiscal balance . 118. Mr. Speaker, Total Revenue and Grants was GH 18 6,593 million, 5.3 percent above the revised target of GH 177,220 million; 119. Total Expenditure (Commitment, incl u\n\n---\n\n[Source: budget_2025]\n[Page 1] THEME: Resetting The Economy For The Ghana We Want [Page 2] [Page 3] The Budget Statement and Economic Policy of the Government of Ghana for the 2025 Financial Year Presented to Parliament by DR. CASSIEL ATO FORSON (MP ) MINISTER FOR FINANCE On Tuesday March 11, 2025 On the Authority of HIS EXCELLENCY JOHN DRAMANI MAHAMA PRESIDENT OF THE REPUBLIC OF GHANA In accordance with Section 28 of the Public Financial Management Act, 2016 (Act 921) [Page 4] THE 2025 BUDGET STATEMENT AND ECONOMIC\n\n---\n\n[Source: budget_2025]\ning the Economy for the Ghana We Want 2025 Budget 229 Appendix 8E: 2028 Internally Generated Funds Retention (Expenditure) Breakdown by MDAS Sector/Ministry/Department/Agency Employee Compensation Goods and Services CAPEX Grand Total INFRASTRUCTURE 605,748,059 1,033,435,649 513,788,638 2,152,972,346 Ministry of Works, Housing and Water Resources - 102,909,532 27,400,318 130,309,850 Architect Registration Council - 845,790 - 845,790 Department of Rural Housing - 45,040 - 45,040 Engineering Counci\n\nQUESTION: What is Ghana's 2025 budget revenue\n\nANSWER:"
+    },
+    "generation": {
+      "response": "I don't have enough information in my knowledge base to answer that."
+    }
+  }
+}

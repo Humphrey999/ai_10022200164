@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-04-25T21:57:01.187868",
+  "query": "NPP NDC votes",
+  "stages": {
+    "retrieval": {
+      "expanded_query": "NPP NDC votes NDC National Democratic Congress NPP New Patriotic Party",
+      "retrieved_chunks": [
+        {
+          "id": "election_data_235",
+          "source": "election_data",
+          "score": 0.5629,
+          "preview": "de: Others, candidate: Others, party: Others, votes: 33462, votes(%): 8.53% | year: 1992, old_region: Central Region, ne...",
+          "low_confidence": false
+        },
+        {
+          "id": "election_data_179",
+          "source": "election_data",
+          "score": 0.551,
+          "preview": "votes(%): 0.39% | year: 2008, old_region: Upper East Region, new_region: Upper East Region, code: NPP, candidate: Nana A...",
+          "low_confidence": false
+        },
+        {
+          "id": "election_data_48",
+          "source": "election_data",
+          "score": 0.5463,
+          "preview": "arty: NDP, votes: 253, votes(%): 0.09% | year: 2020, old_region: Northern Region, new_region: Savannah Region, code: NPP...",
+          "low_confidence": false
+        },
+        {
+          "id": "election_data_208",
+          "source": "election_data",
+          "score": 0.5384,
+          "preview": ": NPP, candidate: J. A. Kuffour, party: NPP, votes: 856789, votes(%): 58.62% | year: 2000, old_region: Eastern Region, n...",
+          "low_confidence": false
+        },
+        {
+          "id": "election_data_175",
+          "source": "election_data",
+          "score": 0.5379,
+          "preview": "y: IND, votes: 1274, votes(%): 0.15% | year: 2008, old_region: Greater Accra Region, new_region: Greater Accra Region, c...",
+          "low_confidence": false
+        }
+      ]
+    },
+    "prompt": {
+      "prompt_length": 3086,
+      "full_prompt": "You are an AI assistant for Academic City University.\nYou answer questions about Ghana's 2025 Budget and Ghana Election Results.\n\nIMPORTANT RULES:\n- Only use information from the CONTEXT below to answer.\n- If the context does not contain the answer, say: \"I don't have enough information in my knowledge base to answer that.\"\n- Do not make up facts, numbers, or names.\n- Be concise and factual.\n\nCONTEXT:\n[Source: election_data]\nde: Others, candidate: Others, party: Others, votes: 33462, votes(%): 8.53% | year: 1992, old_region: Central Region, new_region: Central Region, code: NPP, candidate: Albert Adu Boahen, party: NPP, votes: 86683, votes(%): 25.95% | year: 1992, old_region: Central Region, new_region: Central Region, code: NDC, candidate: Jerry John Rawlings, party: NDC, votes: 222092, votes(%): 66.49% | year: 1992, old_region: Central Region, new_region: Central Region, code: Others, candidate: Others, party: Oth\n\n---\n\n[Source: election_data]\nvotes(%): 0.39% | year: 2008, old_region: Upper East Region, new_region: Upper East Region, code: NPP, candidate: Nana Addo, party: NPP, votes: 118454, votes(%): 35.25% | year: 2008, old_region: Upper East Region, new_region: Upper East Region, code: NDC, candidate: J. A Mills, party: NDC, votes: 188405, votes(%): 56.06% | year: 2008, old_region: Upper East Region, new_region: Upper East Region, code: Others, candidate: Papa K. Nduom, party: CPP, votes: 2800, votes(%): 0.83% | year: 2008, old_r\n\n---\n\n[Source: election_data]\narty: NDP, votes: 253, votes(%): 0.09% | year: 2020, old_region: Northern Region, new_region: Savannah Region, code: NPP, candidate: Nana Akufo Addo, party: NPP, votes: 80605, votes(%): 35.19% | year: 2020, old_region: Northern Region, new_region: Savannah Region, code: NDC, candidate: John Dramani Mahama, party: NDC, votes: 144244, votes(%): 62.97% | year: 2020, old_region: Northern Region, new_region: Savannah Region, code: Others, candidate: Ivor Kobina Greenstreet, party: CPP, votes: 503, vo\n\n---\n\n[Source: election_data]\n: NPP, candidate: J. A. Kuffour, party: NPP, votes: 856789, votes(%): 58.62% | year: 2000, old_region: Eastern Region, new_region: Eastern Region, code: NDC, candidate: J. A. Mills, party: NDC, votes: 577317, votes(%): 39.50% | year: 2000, old_region: Eastern Region, new_region: Eastern Region, code: Others, candidate: George Hagan, party: CPP, votes: 6799, votes(%): 0.47% | year: 2000, old_region: Eastern Region, new_region: Eastern Region, code: Others, candidate: Edward Mahama, party: PNC, vo\n\n---\n\n[Source: election_data]\ny: IND, votes: 1274, votes(%): 0.15% | year: 2008, old_region: Greater Accra Region, new_region: Greater Accra Region, code: NPP, candidate: Nana Addo, party: NPP, votes: 766448, votes(%): 46.35% | year: 2008, old_region: Greater Accra Region, new_region: Greater Accra Region, code: NDC, candidate: J. A Mills, party: NDC, votes: 856510, votes(%): 51.80% | year: 2008, old_region: Greater Accra Region, new_region: Greater Accra Region, code: Others, candidate: Papa K. Nduom, party: CPP, votes: 205\n\nQUESTION: NPP NDC votes\n\nANSWER:"
+    },
+    "generation": {
+      "response": "I don't have enough information in my knowledge base to answer that."
+    }
+  }
+}

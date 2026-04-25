@@ -1,0 +1,53 @@
+{
+  "timestamp": "2026-04-25T22:06:29.940585",
+  "query": "Who won the 2020 Ghana election?",
+  "stages": {
+    "retrieval": {
+      "expanded_query": "Who won the 2020 Ghana election? election voting results winner candidate votes NPP NDC year region votes winner candidate NPP NDC election results",
+      "retrieved_chunks": [
+        {
+          "id": "election_data_5",
+          "source": "election_data",
+          "score": 0.6057,
+          "preview": "didate: Nana Akufo Addo, party: NPP, votes: 1795824, votes(%): 72.79% | year: 2020, old_region: Ashanti Region, new_regi...",
+          "low_confidence": false
+        },
+        {
+          "id": "election_data_168",
+          "source": "election_data",
+          "score": 0.585,
+          "preview": ": NDC, candidate: J. A Mills, party: NDC, votes: 438234, votes(%): 26.13% | year: 2008, old_region: Ashanti Region, new_...",
+          "low_confidence": false
+        },
+        {
+          "id": "election_data_19",
+          "source": "election_data",
+          "score": 0.5729,
+          "preview": ", code: Others, candidate: Nana Konadu Agyeman Rawlings, party: NDP, votes: 239, votes(%): 0.05% | year: 2020, old_regio...",
+          "low_confidence": false
+        },
+        {
+          "id": "budget_2025_993",
+          "source": "budget_2025",
+          "score": 0.5727,
+          "preview": "807,490 76,304,797 3 Parliament of Ghana - 1,630,000 - 1,630,000 1,630,000 1,116,199,511 4 Audit Service - 4,890,000 - 4...",
+          "low_confidence": false
+        },
+        {
+          "id": "budget_2025_1563",
+          "source": "budget_2025",
+          "score": 0.5717,
+          "preview": "20,000.00 - 2,720,000.00 Commission for Technical and Vocational Education and Training - 57,933,601.92 6,437,066.90 64,...",
+          "low_confidence": false
+        }
+      ]
+    },
+    "prompt": {
+      "prompt_length": 3101,
+      "full_prompt": "You are an AI assistant for Academic City University.\nYou answer questions about Ghana's 2025 Budget and Ghana Election Results.\n\nIMPORTANT RULES:\n- Only use information from the CONTEXT below to answer.\n- If the context does not contain the answer, say: \"I don't have enough information in my knowledge base to answer that.\"\n- Do not make up facts, numbers, or names.\n- Be concise and factual.\n\nCONTEXT:\n[Source: election_data]\ndidate: Nana Akufo Addo, party: NPP, votes: 1795824, votes(%): 72.79% | year: 2020, old_region: Ashanti Region, new_region: Ashanti Region, code: NDC, candidate: John Dramani Mahama, party: NDC, votes: 653149, votes(%): 26.47% | year: 2020, old_region: Ashanti Region, new_region: Ashanti Region, code: OTHERS, candidate: Ivor Kobina Greenstreet, party: CPP, votes: 1356, votes(%): 0.05% | year: 2020, old_region: Ashanti Region, new_region: Ashanti Region, code: OTHERS, candidate: David Asibi Ayind\n\n---\n\n[Source: election_data]\n: NDC, candidate: J. A Mills, party: NDC, votes: 438234, votes(%): 26.13% | year: 2008, old_region: Ashanti Region, new_region: Ashanti Region, code: Others, candidate: Papa K. Nduom, party: CPP, votes: 11937, votes(%): 0.71% | year: 2008, old_region: Ashanti Region, new_region: Ashanti Region, code: Others, candidate: Edward Mahama, party: PNC, votes: 5464, votes(%): 0.33% | year: 2008, old_region: Ashanti Region, new_region: Ashanti Region, code: Others, candidate: Kwesi Amoafo-Yeboah, party:\n\n---\n\n[Source: election_data]\n, code: Others, candidate: Nana Konadu Agyeman Rawlings, party: NDP, votes: 239, votes(%): 0.05% | year: 2020, old_region: Central Region, new_region: Central Region, code: NPP, candidate: Nana Akufo Addo, party: NPP, votes: 613804, votes(%): 52.31% | year: 2020, old_region: Central Region, new_region: Central Region, code: NDC, candidate: John Dramani Mahama, party: NDC, votes: 538829, votes(%): 45.92% | year: 2020, old_region: Central Region, new_region: Central Region, code: Others, candidate\n\n---\n\n[Source: budget_2025]\n807,490 76,304,797 3 Parliament of Ghana - 1,630,000 - 1,630,000 1,630,000 1,116,199,511 4 Audit Service - 4,890,000 - 4,890,000 4,890,000 838,369,865 5 Public Services Commission - 62,810 - 62,810 1,630,000 - 1,630,000 1,692,810 21,608,317 6 Electoral Commission - 267,820 - 267,820 - 267,820 177,647,045 7 Ministry of Foreign Affairs 421,692 215,148,275 85,774,844 301,344,812 - 301,344,812 1,486,199,777 8 Ministry of Finance 40,612,877 690,412,537 54,817,321 785,842,734 1,413,536,000 285,739,000\n\n---\n\n[Source: budget_2025]\n20,000.00 - 2,720,000.00 Commission for Technical and Vocational Education and Training - 57,933,601.92 6,437,066.90 64,370,668.82 Encyclopedia Afrikana - 56,244.00 - 56,244.00 Ghana Academy of Arts and Science - 1,390,432.80 - 1,390,432.80 Ghana Book Devt. Council - 1,219,699.68 - 1,219,699.68 Ghana Education Service 377,104.89 35,824,964.22 1,508,418.41 37,710,487.52 Ghana Library Authority - 905,450.00 - 905,450.00 Ghana Science Association - 733,140.00 - 733,140.00 National Schools Inspector\n\nQUESTION: Who won the 2020 Ghana election?\n\nANSWER:"
+    },
+    "generation": {
+      "response": "Nana Akufo Addo, the candidate from the NPP party, won the 2020 Ghana election with 72.79% of the votes."
+    }
+  }
+}
